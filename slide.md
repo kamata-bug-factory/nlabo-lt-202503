@@ -33,7 +33,7 @@ size: 16:9
 
 ---
 
-# DNCL ってなあに？
+# DNCL って何？
 
 - 共通テスト手順記述標準言語
 - Daigaku Nyushi Center Language (~~まさかのローマ字~~)
