@@ -147,3 +147,7 @@ for kougeihin in range(1, kougeihinsu + 1):
     if Akibi[buin - 1] < Akibi[tantou - 1]:
       tantou = buin
 ```
+
+---
+
+# <!-- fit -->第一志望は、ゆずれない。
