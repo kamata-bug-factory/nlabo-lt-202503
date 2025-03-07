@@ -1,0 +1,11 @@
+/* @theme custom-theme */
+
+@import 'default';
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  margin-right: 30px;
+}

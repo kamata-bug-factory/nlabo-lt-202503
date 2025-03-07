@@ -1,5 +1,6 @@
 ---
 marp: true
+theme: custom-theme
 size: 16:9
 ---
 
@@ -63,3 +64,16 @@ x を 1 から 30 まで 1 ずつ増やしながら，
   を実行する
 を繰り返す
 ```
+
+---
+
+# <!-- fit -->今年の本試験の問題を見てみよう ✊
+
+---
+
+## 第 3 問から抜粋
+
+<div class="image-container">
+  <img src="./imgs/code.png" alt="code">
+  <img src="./imgs/option.png" alt="option">
+</div>
