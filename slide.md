@@ -123,3 +123,27 @@ for kougeihin in range(1, kougeihinsu + 1):
   )
   Akibi[tantou - 1] = Akibi[tantou - 1] + Nisuu[kougeihin - 1]
 ```
+
+---
+
+# DNCL2 vs Python⚔️
+
+### DNCL2
+
+```dncl2
+kougeihin を 1 から kougeihinsu まで 1 ずつ増やしながら繰り返す:
+  tantou = 1
+  buin を 2 から buinsu まで 1 ずつ増やしながら繰り返す:
+    もし Akibi[buin] < Akibi[tantou] ならば:
+      tantou = buin
+```
+
+### Python
+
+```python
+for kougeihin in range(1, kougeihinsu + 1):
+  tantou = 1
+  for buin in range(2, buinsu + 1):
+    if Akibi[buin - 1] < Akibi[tantou - 1]:
+      tantou = buin
+```
