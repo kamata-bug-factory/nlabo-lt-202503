@@ -77,3 +77,49 @@ x を 1 から 30 まで 1 ずつ増やしながら，
   <img src="./imgs/code.png" alt="code">
   <img src="./imgs/option.png" alt="option">
 </div>
+
+---
+
+# 穴埋めしてみる 🐞
+
+```dncl2
+Nissu = [4, 1, 3, 1, 3, 4, 2, 4, 3]
+kougeihinsu = 9
+Akibi = [1, 1, 1]
+buinsu = 3
+kougeihin を 1 から kougeihinsu まで 1 ずつ増やしながら繰り返す:
+  tantou = 1
+  buin を 2 から buinsu まで 1 ずつ増やしながら繰り返す:
+    もし Akibi[buin] < Akibi[tantou] ならば:
+      tantou = buin
+  表示する(
+    "工芸品", kougeihin, , "...",
+    "部員", tantou, "：",
+    Akibi[tantou], "日目～",
+    Akibi[tantou] + Nissu[kougeihin] - 1, "日目"
+  )
+  Akibi[tantou] = Akibi[tantou] + Nisuu[kougeihin]
+```
+
+---
+
+# Python で書き換えてみる 🐍
+
+```python
+Nissu = [4, 1, 3, 1, 3, 4, 2, 4, 3]
+kougeihinsu = 9
+Akibi = [1, 1, 1]
+buinsu = 3
+for kougeihin in range(1, kougeihinsu + 1):
+  tantou = 1
+  for buin in range(2, buinsu + 1):
+    if Akibi[buin - 1] < Akibi[tantou - 1]:
+      tantou = buin
+  print(
+    "工芸品", kougeihin, , "...",
+    "部員", tantou, "：",
+    Akibi[tantou - 1], "日目～",
+    Akibi[tantou - 1] + Nissu[kougeihin - 1] - 1, "日目"
+  )
+  Akibi[tantou - 1] = Akibi[tantou - 1] + Nisuu[kougeihin - 1]
+```
