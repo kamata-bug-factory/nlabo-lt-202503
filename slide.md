@@ -53,15 +53,15 @@ size: 16:9
 
 ```dncl
 x を 1 から 30 まで 1 ずつ増やしながら，
-  もし x % 15 = 0 ならば
-    "FizzBuzz" を表示する
-  を実行し，そうでなくもし x % 3 = 0 ならば
-    "Fizz" を表示する
-  を実行し，そうでなくもし x % 5 = 0 ならば
-    "Buzz" を表示する
-  を実行し，そうでなければ
-    x を表示する
-  を実行する
+    もし x % 15 = 0 ならば
+        "FizzBuzz" を表示する
+    を実行し，そうでなくもし x % 3 = 0 ならば
+        "Fizz" を表示する
+    を実行し，そうでなくもし x % 5 = 0 ならば
+        "Buzz" を表示する
+    を実行し，そうでなければ
+        x を表示する
+    を実行する
 を繰り返す
 ```
 
@@ -88,17 +88,17 @@ kougeihinsu = 9
 Akibi = [1, 1, 1]
 buinsu = 3
 kougeihin を 1 から kougeihinsu まで 1 ずつ増やしながら繰り返す:
-  tantou = 1
-  buin を 2 から buinsu まで 1 ずつ増やしながら繰り返す:
-    もし Akibi[buin] < Akibi[tantou] ならば:
-      tantou = buin
-  表示する(
-    "工芸品", kougeihin, , "...",
-    "部員", tantou, "：",
-    Akibi[tantou], "日目～",
-    Akibi[tantou] + Nissu[kougeihin] - 1, "日目"
-  )
-  Akibi[tantou] = Akibi[tantou] + Nisuu[kougeihin]
+    tantou = 1
+    buin を 2 から buinsu まで 1 ずつ増やしながら繰り返す:
+        もし Akibi[buin] < Akibi[tantou] ならば:
+            tantou = buin
+    表示する(
+        "工芸品", kougeihin, , "...",
+        "部員", tantou, "：",
+        Akibi[tantou], "日目～",
+        Akibi[tantou] + Nissu[kougeihin] - 1, "日目"
+    )
+    Akibi[tantou] = Akibi[tantou] + Nisuu[kougeihin]
 ```
 
 ---
@@ -111,17 +111,17 @@ kougeihinsu = 9
 Akibi = [1, 1, 1]
 buinsu = 3
 for kougeihin in range(1, kougeihinsu + 1):
-  tantou = 1
-  for buin in range(2, buinsu + 1):
-    if Akibi[buin - 1] < Akibi[tantou - 1]:
-      tantou = buin
-  print(
-    "工芸品", kougeihin, , "...",
-    "部員", tantou, "：",
-    Akibi[tantou - 1], "日目～",
-    Akibi[tantou - 1] + Nissu[kougeihin - 1] - 1, "日目"
-  )
-  Akibi[tantou - 1] = Akibi[tantou - 1] + Nisuu[kougeihin - 1]
+    tantou = 1
+    for buin in range(2, buinsu + 1):
+        if Akibi[buin - 1] < Akibi[tantou - 1]:
+            tantou = buin
+    print(
+        "工芸品", kougeihin, , "...",
+        "部員", tantou, "：",
+        Akibi[tantou - 1], "日目～",
+        Akibi[tantou - 1] + Nissu[kougeihin - 1] - 1, "日目"
+    )
+    Akibi[tantou - 1] = Akibi[tantou - 1] + Nisuu[kougeihin - 1]
 ```
 
 ---
@@ -132,20 +132,20 @@ for kougeihin in range(1, kougeihinsu + 1):
 
 ```dncl2
 kougeihin を 1 から kougeihinsu まで 1 ずつ増やしながら繰り返す:
-  tantou = 1
-  buin を 2 から buinsu まで 1 ずつ増やしながら繰り返す:
-    もし Akibi[buin] < Akibi[tantou] ならば:
-      tantou = buin
+    tantou = 1
+    buin を 2 から buinsu まで 1 ずつ増やしながら繰り返す:
+        もし Akibi[buin] < Akibi[tantou] ならば:
+            tantou = buin
 ```
 
 ### Python
 
 ```python
 for kougeihin in range(1, kougeihinsu + 1):
-  tantou = 1
-  for buin in range(2, buinsu + 1):
-    if Akibi[buin - 1] < Akibi[tantou - 1]:
-      tantou = buin
+    tantou = 1
+    for buin in range(2, buinsu + 1):
+        if Akibi[buin - 1] < Akibi[tantou - 1]:
+            tantou = buin
 ```
 
 ---
