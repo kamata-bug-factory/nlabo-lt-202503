@@ -150,13 +150,15 @@ for kougeihin in range(1, kougeihinsu + 1):
 
 ---
 
-# DNCL2 の言語仕様は問題によって変わりうる
+# DNCL2 の言語仕様は問題によって変わりうる？
 
 ### zero-based indexing（試作問題）
 
+<img src="./imgs/zero.jpg" width="850px" alt="zero">
+
 ### one-based indexing（令和 7 年度本試験）
 
-## 問題をよく読もう！
+<img src="./imgs/one.jpg" width="800px" alt="one">
 
 ---
 
