@@ -150,7 +150,7 @@ for kougeihin in range(1, kougeihinsu + 1):
 
 ---
 
-# DNCL2 の言語仕様は問題によって変わるかも
+# DNCL2 の言語仕様は問題によって変わるかも 😵‍💫
 
 ### zero-based indexing（試作問題）
 
