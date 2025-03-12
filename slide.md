@@ -4,7 +4,7 @@ theme: custom-theme
 size: 16:9
 ---
 
-# ⚡️Lightning Talk⚡️
+# ⚡️Type-C Talk⚡️
 
 ## N Code Labo LT 大会 2025 年 3 月
 
