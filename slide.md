@@ -176,4 +176,14 @@ for kougeihin in range(1, kougeihinsu + 1):
 
 ---
 
+# まとめ
+
+- DNCL は共通テストで使用される言語
+- Python Like な 2 系が使われそう
+- 配列の indexing が問題によって異なるかも
+
+※鎌田の感想を含みます ⚠️
+
+---
+
 # <!-- fit -->第一志望は、ゆずれない。
